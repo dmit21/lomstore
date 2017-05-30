@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Служебный приход</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="../../../css/bootstrap.css" rel="stylesheet">
+    <script src="../../../js/jquery.js"></script>
+    <script src="../../../js/bootstrap.js"></script>
+    <script src="../../../js/close.js"></script>
+    <script src="../../../js/myfunction.js"></script>
+    <script src="js/print.js"></script>
+  </head>
+  <body>
+    <div class="block1">
+      <div class="block2">
+        <p id = "MName" class="paragraph1"></p>
+        <p id = "MPhone" class="paragraph1"></p>
+        <p id = "MAdres" class="paragraph1"></p>
+      </div>
+      <div class="block3">
+        <h5 id = "Prih" class="zagolovok1"></h5>
+        <table class="tab1">
+          <tr>
+             <th class="th1" rowspan="2">Дебет</th>
+             <th class="th1" rowspan="2">Структурное подразделение</th>
+             <th class="th1" colspan="1">Кредит</th>
+             <th class="th1" rowspan="2">Сумма</th>
+             <th class="th1" rowspan="2">Код целевого назначения</th>
+             <tr>
+               <th class="th1">Корреспонди. счет, субсчет</th>
+             </tr>
+          </tr>
+          <tr>
+            <td class="td1">451</td>
+            <td class="td1"></td>
+            <td class="td1">333.1</td>
+            <td id= "MySum" class="td1"></td>
+            <td class="td1"></td>
+          </tr>
+        </table>
+      </div>
+      <div  class="block4">
+          <p>Основание: аванс</p>
+          <p id = "FunSum" class="paragraph3"></p>
+      </div>
+      <p>Принял эксперт-оценщик <span class="span1">________</span> <span id = "UserName" class="span1"></span><br>
+         <span class="span3">подпись</span>
+      </p>
+      <button id="printBtn" class="btn btn-primary btn-sm button1" onclick="javascript: print();">Распечатать страницу</button>
+    </div> 
+  </body>
+</html>

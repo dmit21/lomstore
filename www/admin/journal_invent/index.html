@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Ломбардия</title>
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="../../font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/bootstrap.js"></script>
+    <script src="js/gl.js"></script>
+    <script src="../../js/myfunction.js"></script>
+  </head>
+  <body>
+  	<header class="main">
+ 	   <h3 class="zagolovok1">Журнал инвентаризации</h3>
+	  </header>
+    <div class="block2 block4">
+      <h5 class="zagolovok1">Витрины:</h5>
+      <select class = "sel1"  multiple="multiple" id="MyStore">
+      </select>
+      <p class = "paragraph1" id="MyStoreName"></p>
+    </div>
+    <div class="block2 block3">
+	    <p class="paragraph2">
+        <label>от: <input id = "DateBeg" type="date"></label>
+        <button id = "DateSearch" type = "button"><i class="fa fa-search"></i></button>
+      </p>
+    </div>
+    <p class="paragraph2">
+      <button  type="button" id = "MyPrnButton"><i class = "fa fa-print"></i></button>
+      <button  type="button" id = "MyCloseButton">Закрыть</button>
+    </p>
+    <div class="block1">
+	    <table id = "MyGoodTable" class="tab1 table-hover">
+        <tr>
+          <th class = "th1">№ п/п</th>
+          <th class = "th2">Идентификатор</th>
+          <th class = "th3">Наименование</th>
+          <th class = "th4">Вес</th>
+          <th class = "th5">Категория</th>
+          <th class = "th6">Цена за г.</th>
+          <th class = "th7">Стоимость</th>
+          <th class = "th8">Витрина</th>
+        </tr>
+      </table>
+    </div>
+    <p class = "paragraph3" id ="MyItog"></p>
+  </body>
+  <script src="../../js/exit.js"></script>
+  <script src="js/inventory.js?2"></script>
+  </head>
+</html>

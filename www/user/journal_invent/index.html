@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Ломбардия</title>
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="../../font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/bootstrap.js"></script>
+    <script src="js/gl.js"></script>
+    <script src="../../js/myfunction.js"></script>
+  </head>
+  <body>
+  	<header class="main">
+ 	   <h3  class="zagolovok1">Журнал инвентаризации</h3>
+	  </header>
+	  <p class="paragraph2">
+       <label> Дата: <input type = "date"  id="MyDate"></label><button id="MySearch" type="button"><i class = "fa fa-search"></i></button>
+    </p>
+    <p class="paragraph2">
+      <button  type="button" id = "MyPrnButton"><i class = "fa fa-print"></i></button>
+      <button  type="button" id = "MyCloseButton">Закрыть</button>
+    </p>
+    <div class="block1">
+	    <table id = "MyGoodTable" class="tab1">
+        <tr>
+          <th>№ п/п</th>
+          <th>Идентификатор</th>
+          <th>Наименование</th>
+          <th>Вес</th>
+          <th>Категория</th>
+          <th>Цена</th>
+          <th>Стоимость</th>
+        </tr>
+      </table>
+    </div>
+    <p class = "paragraph3" id ="MyItog"></p>
+  </body>
+  <script src="../../js/exituser.js"></script>
+  <script src="js/inventory.js"></script>
+</html>

@@ -1,0 +1,23 @@
+/*Глобальные*/
+
+body {
+	font-family: "Times New Roman", serif;
+	font-size: 14px;
+}
+
+/*Блочные элементы*/
+
+/*<p>*/
+
+.paragraph1 {
+  margin-left: 20px;
+  margin-top: 20px;	
+}
+
+/*Строчные элементы*/
+
+/*button*/
+
+.button1 {
+  margin-left: 20px;
+}

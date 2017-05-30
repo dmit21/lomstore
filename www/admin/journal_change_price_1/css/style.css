@@ -1,0 +1,100 @@
+/*Глобальные*/
+body {
+	font-family: "Times New Roman", serif;
+	font-size: 14px;
+}
+
+th {
+ 	border: 1px solid black;
+ 	text-align: center;
+}
+
+td {
+   border: 1px solid black;	
+}
+
+/*Блочные элементы*/
+
+/*<header>*/
+
+.main {
+	margin: 0px 0px 0px 20px;
+
+}
+
+/*<h5>*/
+
+.zagolovok1 {
+	font-weight: bold;
+}
+
+/*<p>*/
+
+.paragraph1 {
+ margin-left: 20px;
+ margin-top: 20px;
+}
+
+/*<div>*/
+
+.block1 {
+	margin: 20px 0px 0px 20px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    height: 400px;
+    /*width: 1300px;*/
+}
+
+/*<table>*/
+
+.table1 {
+  border: 1px solid black;
+  table-layout:fixed;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/*td*/
+
+.td2{
+  text-align: left;
+  padding-left: 2mm;
+  padding-right: 1mm;   
+}
+
+.td3 {
+  text-align: center;
+}
+
+.td4 {
+  text-align: right;
+  padding-left: 1mm;
+  padding-right: 2mm;
+}
+
+/*<th>*/
+
+.th1 {
+  width: 7%
+}
+
+.th2 {
+  width: 60%;
+}
+
+.th3 {
+  width: 7%;
+}
+
+.th4 {
+  width: 7%;
+}
+
+.th5 {
+  width: 7%;
+}
+
+.th6 {
+  width: 10%;
+}

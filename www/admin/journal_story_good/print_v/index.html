@@ -1,0 +1,114 @@
+<html>
+  <head>
+    <title>Залоговый билет</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="../../../css/bootstrap.css" rel="stylesheet">
+    <script src="../../../js/jquery.js"></script>
+    <script src="../../../js/bootstrap.js"></script>
+    <script src="js/print.js"></script>
+    <script src="../../../js/myfunction.js"></script>
+  </head>
+  <body>
+    <div class="block1">
+      <h5 id = "MyAdresPrint" class="zagolovok1"></h5>
+      <div class="block2">
+        <h5 class="zagolovok2">Кредитно-залоговый билет</h5>
+        <p id="DateCur" class="paragraph1"></p>
+      </div>
+      <div class="block3">
+        <h5 id = "NumTic" class="zagolovok3"></h5>
+        <p id="OrgAdres" class="paragraph2">
+        </p>
+      </div>
+      <span id="Dogovor" class="span10">
+      </span><br>
+      <span id="ClientIIN" class="span11">
+      </span>
+      <p id="ClientDate" class="paragraph4">
+      <p>  
+      <ol class="list1">
+        <li>Заемщик/Залогодатель предоставил залоговое имущество, а Товарищество выдало кредит на следующих условиях:</li><br>
+        <table id = "MyZalogTab" class="tab1">
+          <tr>
+            <th>№</th>
+            <th class="th1">Наименование залога</th>
+            <th class="th2">Категория</th>
+            <th class="th3">Вес залога</th>
+            <th class="th3">Сумма оценки</th>
+            <th class="th3">Cумма выданного кредита</th>
+            <th class="th3">Сумма ком. сбора</th>
+            <th class="th3">Сумма удержа нного вознагр аждения</th>
+            <th class="th3">Сумма на руки</th>
+          </tr>
+          <tr>
+            <td class="td1">1</td>
+            <td class="td1">2</td>
+            <td class="td1">3</td>
+            <td class="td1">4</td>
+            <td class="td1">5</td>
+            <td class="td1">6</td>
+            <td class="td1">7</td>
+            <td class="td1">8</td>
+            <td class="td1">9</td>
+          </tr>
+        </table><br>
+        <span id = "MyBon"></span>
+        <table class="tab2">
+          <tr>
+            <td class="td3"><li>Срок кредита:</li></td> <td id = "MySrok" class="td3"></td>
+          </tr>
+        <tr>
+          <td class="td3"><li>Дата выдачи кредита:</li></td> <td id = "MyDate" class="td3"></td>
+        </tr>
+        <tr>
+          <td class="td4"><li>Дата погашения кредита:</li></td><td id = "MyDateEnd" class="td4"></td>
+        </tr>
+        <tr>
+          <td class="td3"><li>Льготный срок: </li></td><td class="td3"> 10 дней.</td>
+        </tr>
+        <tr>
+          <td class="td4"><li>Дата истечения льготного срока:</li></td><td id = "MyDateLg" class="td4"></td>
+        </tr>
+        </table>
+        <li>
+          Товарищество гарантирует Заемщику/Залогодателю сохранность и целостность, предоставленного Заемщиком/Залогодателем залогового имущества, указанного в столбцах 2,3,4 пункта 1. до даты указанной в пункте 6.
+        </li>
+        <li>
+          Заемщик/Залогодатель обязуется своевременно и в полном объеме погасить, выданный ему кредит в сумме указанной в столбце 6. пункта 1, не позднее даты, указанной в пункте 4.
+        </li>
+        <li>
+          В случае если Заемщик/Залогодатель нарушил срок возврата кредита, указанный в пункте 4, то погашение производится в следующем порядке: сумма вознаграждения, за несвоевременный возврат в размере 1.1% от суммы, выданного кредита (ст. 6, п. 1) за каждый день просрочки Сумма вознаграждения при нарушении погашения кредита Товарищество не возвращает.
+        </li>
+        <li>
+          Товарищество принимает возврат всей задолжности только в полном объеме, исключая частичные платежи.
+        </li>
+        <li>
+          В случае если Заемщик/Залогодатель не погасил образовавшуюся задолжность (сумма, выданного кредита + вознаграждение за несвоевременность возврата кредита) до даты, указанный в пункте 6, то Товарищество имеет право на внесудебную реализацию вышеуказанного залогового имущества по истечению льготного срока (пункты 5,6).
+        </li>
+        <li>
+          В случае каких-либо форс-мажорных обстоятельств (кражи залогового имущества, пожара и т.д.), что привело к утрате полностью или частично залогового имущества, указанного в пункте 1 ст. 2,3,4 ТОО "Ломбардия" обязуется возместить вышеуказанное залоговое имущество в размере суммы оценки, указанного в пункте 1 столбец 5 данного кредитно-залогового билета.
+        </li>
+      </ol>
+      <span class="span10">
+        Подписи Сторон:
+      </span><br>
+      <span class="span10">
+        От имени Товарищества <span class="span1">________</span> <span id = "MyUser"class="span2"></span>
+      </span>
+      <p class="span3">
+        подпись
+      </p>
+      <p class="paragraph4">
+        МП
+      </p>
+      <p id = "MyClPod" class="paragraph4"></p>
+      <div class="block4">
+        <p>
+          Заемщик/Залогодатель<span class="span1">________ ____________________</span>
+          <span class="span4">подпись</span><span class="span9">ФИО</span>
+        </p>
+      </div>
+      <button id="printBtn" class="btn btn-primary btn-sm" onclick="javascript: print();">Распечатать страницу</button>
+    </div>
+  </body>
+<html>

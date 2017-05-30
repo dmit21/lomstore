@@ -1,0 +1,74 @@
+/*Медиа*/
+@media print {
+  #printBtn { 
+    display:none;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  #printRet { display:none; }
+}
+
+/*Глобальные*/
+
+body {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+th {
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+}
+
+/*Блочные элементы*/
+
+/*<div>*/
+
+.block1 {
+  width: 210mm;   /* ширина */
+  height: 297mm; /* высота */
+  margin: 0px auto;  /* выравнивание по центру */
+}
+
+.block2 {
+  margin-right: 185px; 
+}
+
+/*<table>*/
+
+.tab1 {
+    font-size: 13px;
+    text-align: center;
+    width: 170mm;
+    border-collapse: separate;
+    border: 1px solid black;
+}
+
+/*<h4>*/
+
+.zagolovok1 {
+  text-align: center;
+}
+
+/*строчные элементы*/
+
+/*<td>*/
+
+.td1 {
+  font-weight: bold;
+}
+
+.td2 {
+  text-align: left;
+  padding-left: 2mm;
+  padding-right: 1mm; 
+}
+
+.td3 {
+  text-align: right;
+  padding-left: 1mm;
+  padding-right: 2mm; 
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ломбардия</title>
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css?1" rel="stylesheet">
+    <link href="../../font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <script src="../../js/jquery.js"></script>
+    <script src="js/gl.js?1"></script>
+    <script src="../../js/bootstrap.js"></script>
+    <script src="../../js/myfunction.js"></script>
+  </head>
+  <body>
+    <header class="main">
+      <h3 class="zagolovok1">Журнал актов на исполнение</h3>
+    </header>
+    <div class="block1">
+      <div id="MyGoodBlock">
+        <h5 class="zagolovok1">Cписок пунктов:</h5>
+        <select class="sel1" multiple="multiple" id="MyStore"></select>
+        <p class="paragraph2" id="MyStoreName"></p>
+      </div>
+      <div>
+        <label>За период с  <input id = "MyDateBeg" type="date"></label> <label>по <input id = "MyDateEnd" type="date"></label>
+        <button type="button" onclick="MySearch()"><i class="fa fa-search"></i></button>
+      </div>
+    </div>
+    <p class="paragraph1">
+      <button id="MyCloseButton" type="button">Закрыть</button>
+    </p>
+    <div  class="block3">
+      <table id = "MyGoodTable" class="table1 table-hover">
+     	  <tr>
+          <th class = "th1">№ п/п</th>
+          <th class = "th2">Дата форм.</th>
+          <th class = "th3">№ акта</th>
+          <th class = "th4">Дата разук.</th>
+          <th class = "th5">№ пункта</th>
+     	    <th class = "th6">Эксперт-оценщик</th>
+          <th class = "th7">Просмотр</th>
+          <th class = "th11"></th>
+     	  </tr>
+      </table>
+    </div>
+    <script src="js/acts.js?1"></script>
+    <script src="../../js/exit.js"></script> 
+  </body>
+</html>

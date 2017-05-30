@@ -1,0 +1,158 @@
+/*Глобальные*/
+body {
+	font-family: "Times New Roman", serif;
+	font-size: 14px;
+}
+
+td {
+  border: 1px solid black;
+}
+
+th {
+  border: 1px solid black;
+  text-align: center;
+}
+
+/*Блочные элементы*/
+
+/*<header>*/
+.main {
+	margin: 0px 0px 0px 20px;
+
+}
+
+/*<h4>*/
+.zagolovok1 {
+	font-weight: bold;
+}
+
+/*<div>*/
+
+.block1 {
+	margin: 20px 0px 0px 20px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    height: 400px;
+    width: auto;
+    
+}
+
+.block2 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.block3 {
+	margin-left: 100px;
+}
+
+.block4 {
+	margin-left: 20px;
+}
+
+/*<p>*/
+
+.paragraph2 {
+     margin: 20px 0px 0px 20px;          
+}
+
+.paragraph1 {
+     margin: 20px 0px 0px 0px;          
+}
+
+.paragraph3 {
+  margin: 20px 0px 0px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+/*<table>*/
+
+.tab1 {
+ 	border: 1px solid black;
+  table-layout:fixed;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/*Строчные элементы*/
+
+
+/*<tr>*/
+
+.tr1{
+	background-color: white;
+}
+.tr2{
+	background-color: green;
+}
+
+
+/*td*/
+.td1{
+  width: 0%;
+  visibility: hidden;
+}
+
+.td2 {
+  text-align: center;  
+}
+
+.td3{
+  text-align: left;
+  padding-left: 2mm;
+  padding-right: 1mm;
+}
+
+.td4 {
+  text-align: right;
+  padding-left: 1mm;
+  padding-right: 2mm;
+}
+
+.td5{
+  text-align: right;
+  font-weight: bold;
+  padding-right: 5mm;
+}
+/*<select>*/
+
+.sel1 {
+  width: 200px;
+}
+
+/*<th>*/
+
+.th1 {
+  width: 3%;
+}
+
+.th2 {
+  width: 6%;
+}
+
+.th3 {
+  width: 38%;
+}
+
+.th4 {
+  width: 5%;
+}
+
+.th5 {
+  width: 20%;
+}
+
+.th6 {
+  width: 5%;
+}
+
+.th7 {
+  width: 5%;
+}
+
+.th8 {
+  width: 8%;
+}

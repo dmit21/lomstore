@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Накладная</title>
+      <link href="css/style.css" rel="stylesheet">
+      <link href="../../../../css/bootstrap.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="block1">
+      <p id = "MyPoint" class="paragraph1"></p>
+      <h4 id = "MyZag" class="zagolovok1"></h4>
+      <table id = "MyActTable" class="tab1">
+        <tr>
+          <td class="th1">№/Дата</td>
+          <td class="th1">Залоговый билет/Наименование</td>
+          <td class="th1">Идентификатор</td>
+          <td class="th1">Категория</td>
+          <td class="th1">Вес</td>
+          <td class="th1">Сумма кредита</td>
+          <td class="th1">Эксперт</td>
+        </tr>
+      </table>
+      <div class="block3">
+         <p id = "MySum"></p>
+         <p>
+           Эксперт-оценщик: <span class="span1">________</span> <span id ="MyUser" class="span1"></span><br>
+           <span class="span2">подпись</span>
+         </p>
+      </div>
+      <button id="printBtn" class="button btn btn-primary btn-sm button1" onclick="javascript: print();">Распечатать страницу</button>
+    </div>
+  </body>
+  <script src="../../../../js/jquery.js"></script>
+  <script src="../../../../js/myfunction.js"></script>
+  <script src="../../../../js/bootstrap.js"></script>
+  <script src="js/print.js"></script>
+</html>
+  

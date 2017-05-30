@@ -1,0 +1,107 @@
+/*Медиа*/
+
+@media print {
+      #printBtn { display:none; }
+      #printRet { display:none; }
+
+} 
+
+/*Глобальные*/
+
+body {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/*Блочные элементы*/
+
+/*<div>*/
+
+.block1 {
+    width: 210mm;   /* ширина */
+    height: 297mm; /* высота */
+    margin: 0px auto;  /* выравнивание по центру */
+    background-color: white;  /* цвет фона в блоке */
+    padding: 15mm 15mm 15mm 15mm;
+}
+
+.block2 {
+    line-height: 0.5;
+    margin-top: 30px;
+    font-size: 10px;
+    text-align: right;
+}
+
+.block3 {
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+/*<h4>*/
+
+.zagolovok1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*table*/
+
+.tab1 {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 12px;
+  border: 1px solid black;
+}  
+
+
+/*Cтрочные элеметы элементы*/
+
+/*<td>*/
+
+.td1 {
+  /*border: none;*/
+  font-weight: bold;
+  text-align: right;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.td2 {
+  border: 1px solid black;
+  text-align: right;
+  padding: 5px;
+}
+
+.td3 {
+  border: 1px solid black;
+  text-align: left;
+  padding: 5px;
+}
+
+/*<th>*/
+
+.th1 {
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+}
+
+
+/*<span>*/
+
+.span1 {
+  margin-left: 50px;
+}
+
+.span2 {
+  margin-left: 187px;
+  font-size: 10px;
+
+}
+
+/*<button>*/
+
+.button1 {
+  margin-top: 20px;
+}

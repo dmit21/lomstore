@@ -1,0 +1,76 @@
+/*Глобальные*/
+body {
+	font-family: "Times New Roman", serif;
+	font-size: 12px;
+}
+
+th {
+ 	border: 1px solid black;
+ 	text-align: center;
+}
+
+td {
+   border: 1px solid black;	
+}
+
+/*Блочные элементы*/
+
+/*<div>*/
+
+.block1 {
+  width: 210mm;   /* ширина */
+  height: 297mm; /* высота */
+  margin: 0px auto;  /* выравнивание по центру */
+  background-color: white;  /* цвет фона в блоке */
+  padding: 15mm 15mm 15mm 15mm;
+}
+
+/*<h5>*/
+
+.zagolovok1 {
+  text-align: center;
+  font-weight: bold;	
+}
+
+.paragraph1 {
+  font-size: 10px;
+  text-align: right;
+}
+
+.paragraph2 {
+  font-size: 10px;
+  text-align: left;
+}
+
+.paragraph3 {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+/*<table>*/
+
+/*<table>*/
+
+
+.table1 {
+  border: 1px solid black;
+  table-layout:fixed;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 11px;
+  margin: auto;
+}
+
+/*Строчные элементы*/
+
+/*<td>*/
+
+.td1 {
+  padding-left: 2mm;
+  text-align: left;
+}
+
+.td2 {
+  padding-right: 2mm;
+  text-align: right;
+}

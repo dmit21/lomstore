@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ломбардия</title>
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="../../font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/bootstrap.js"></script>
+    <script src="../../js/myfunction.js"></script>
+    <script src="js/gl.js"></script>
+  </head>
+  <body>
+    <header class="main">
+      <h3 id = "MyZag" class="zagolovok1"></h3>
+    </header>
+    <div class="block1">
+      <div class="block2 block6">
+        <h4  class="zagolovok1">Витрины:</h4>
+        <select class="sel1" multiple="multiple" id="MyStore"></select>
+        <p class = "paragraph2" id="MyStoreName"></p>
+      </div>
+      <div class="block5 block6">
+        <h4  class="zagolovok1">Акты:</h4>
+        <select class="sel2" multiple="multiple" id="MyAct"></select>
+      </div>
+      <div class="block3">
+        <p>
+          <button id="MakeBut" type="button">Провести</button>
+          <button id="PrintBut" type="button"><i class = "fa fa-print"></i></button>
+          <button id="MyCloseButton" type="button">Закрыть</button>
+          <button class = "but1" id="MySaveButton" type="button">Сохранить изменения</button>
+          <button class = "but1" id="MyCancelButton" type="button">Отменить изменения</button>
+        </p>
+        <table id = "MyGoodTable" class="table1 table-hover">
+          <tr>
+          <th class = "th1">№</th>
+          <th class = "th2">№ КЗБ</th>
+          <th class = "th3">Идентификатор</th>
+     	    <th class = "th4">Наименование</th>
+     	    <th class = "th5">Вес</th>
+     	    <th class = "th6">Категория</th>
+     	    <th class = "th7">Цена за г</th>
+          <th class = "th7">Скидка</th>
+          <th class = "th8">Стоим.</th>
+          <th class = "th9">Себест.</th>
+     	    <th class = "th10">Магазин от</th>
+          <th class = "th11">Магазин в</th>
+          <th class = "th12">Подтв.</th>
+    	  </tr>
+        </table>
+      </div>
+    </div>
+    <script src="js/goods.js"></script>
+    <script src="../../js/exit.js"></script>    
+  </body>
+</html>

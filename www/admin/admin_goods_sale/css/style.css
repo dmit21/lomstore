@@ -1,0 +1,114 @@
+/*Глобальные*/
+body {
+	font-family: "Times New Roman", serif;
+	font-size: 14px;
+}
+
+td, th {
+	border: 1px solid black;
+}
+
+/*Блочные элементы*/
+
+/*<header>*/
+.main {
+	margin: 0px 0px 0px 20px;
+
+}
+
+/*<h4>*/
+.zagolovok1 {
+	font-weight: bold;
+}
+
+/*<div>*/
+
+.block1 {
+	margin: 20px 0px 0px 20px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    height: 400px;
+    width: auto;
+}
+
+.block2 {
+  margin: 20px 0px 0px 20px;
+}
+
+
+/*<p>*/
+
+.paragraph2 {
+     margin: 20px 0px 0px 20px;          
+}
+
+.paragraph3 {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*<table>*/
+
+.tab1 {
+	width: 100%;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+/*Строчные элементы*/
+
+/*input*/
+
+.input1 {
+	width: 150px;
+}
+
+.input2 {
+
+}
+/*<th>*/
+
+.th2 {
+	width: 6%;
+}
+
+.th3 {
+  width: 35%;
+}
+
+/*<td>*/
+
+.td1{
+	width: 0px;
+	visibility: hidden;
+}
+
+.td2 {
+  text-align: center;
+}
+
+.td3 {
+	text-align: left;
+	padding-left: 2mm;
+	padding-right: 1mm;
+}
+/*<button>*/
+
+.but1{
+  visibility: hidden;
+}
+.but2{
+  visibility: visible;
+}
+
+.but3 {
+  visibility: visible;
+}
+
+/*<select>*/
+
+.sel1 {
+  width: 200px;	
+}
+

@@ -1,0 +1,112 @@
+/*Глобальные*/
+body {
+	font-family: "Times New Roman", serif;
+	font-size: 14px;
+}
+
+th {
+ 	border: 1px solid black;
+ 	text-align: center;
+}
+
+td {
+   border: 1px solid black;	
+}
+/*Блочные элементы*/
+
+/*<header>*/
+.main {
+	margin: 0px 0px 0px 20px;
+}
+
+/*<div>*/
+.block1 {
+	margin: 0px 0px 0px 20px;
+}
+
+.block2 {
+	margin: 20px 0px 0px 0px;
+}
+
+.block3 {
+	margin: 20px 0px 0px 0px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    height: 400px;
+    width: 1300px;
+    
+}
+
+.block4 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.block5 {
+    margin: 20px 0px 0px 100px;	
+}
+
+.block6 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+/*<h3>*/
+
+.zagolovok1 {
+  font-weight: bold;
+}
+
+/*<table>*/
+
+.table1 {
+  border: 1px solid black;
+  table-layout:fixed;
+  text-align: center;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+/*Строчные элементы*/
+
+/*<p>*/
+
+.paragraph1 {
+	margin: 20px 0px 0px 0px;
+}
+
+.paragraph2 {
+	font-size: 20px;
+}
+
+
+/*td*/
+
+.td1{
+	width: 0px;
+	visibility: hidden;
+}
+
+/*<th>*/
+
+.th1 {
+  width: 3%;
+}
+
+.tid {
+  width: 0%;
+  visibility: hidden;
+}
+
+
+/*<input>*/
+
+.input1 {
+  width: 50px;
+  text-align: right;
+  border: none;
+}
+
+.input2 {
+  width: 100px;
+}

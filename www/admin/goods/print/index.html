@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ломбардия</title>
+    <link href="../../../css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="../../../font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <script src="../../../js/jquery.js"></script>
+    <script src="../../../js/bootstrap.js"></script>
+    <script src="../../../js/close.js"></script>
+    <script src="../../../js/myfunction.js"></script>
+    <script src="js/print.js?1"></script>
+</head>
+<body>
+    <div class="block1">
+        <h5 class="zagolovok2" id="MyPrintZag"></h5>
+        <p class="paragraph1" id = "MyShop"></p>
+        <table class="table1" id = "MyGoodTab">
+            <tr>
+              <th>№</th>
+              <th>№ билета.</th>
+              <th class="th1">№ тов.</th>
+              <th>Наименование товара</th>
+              <th>Категория ломбарда</th>
+              <th>Вес</th>
+              <th>Цена за г</th>
+              <th>Стоимость</th>
+              <th>Себест.</th>
+            </tr>
+        </table>
+        <p class="paragraph1">сдал ______________ <span class="span1" id="MyRuc"></span></p>
+        <p class="paragraph2">подпись</p>
+        <p class="paragraph1">принял ______________ </p>
+        <p><button id="printBtn" class="btn btn-primary btn-sm" onclick="javascript: print();" type="button">Распечатать страницу</button></p>        
+    </div>
+</body>
+</html>

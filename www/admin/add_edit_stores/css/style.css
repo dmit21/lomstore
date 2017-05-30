@@ -1,0 +1,72 @@
+/*Глобальные*/
+body {
+	font-family: "Times New Roman", serif;
+	font-size: 14px;
+}
+
+td, th {
+	border: 1px solid black;
+}
+
+/*Блочные элементы*/
+
+/*<header>*/
+.main {
+	margin: 0px 0px 0px 20px;
+
+}
+
+/*<h4>*/
+.zagolovok1 {
+	font-weight: bold;
+}
+
+/*<div>*/
+
+.block1 {
+   margin-left: 100px;
+   visibility: hidden;
+}
+
+.block2 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.block3 {
+	margin: 0px 0px 20px 20px;
+}
+
+
+/*<p>*/
+.paragraph1 {
+     font-weight: bold;          
+}
+
+
+.paragraph2 {
+     margin: 20px 0px 0px 0px;          
+}
+
+.paragraph3 {
+     margin: 0px 0px 0px 20px;          
+}
+
+
+/*Строчные элементы*/
+
+/*<select>*/
+
+.sel1 {
+  width: 100%;
+}
+
+/*<input>*/
+
+.input1 {
+  width: 50px;
+}
+
+.input2 {
+  width: 400px;
+}

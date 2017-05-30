@@ -1,0 +1,190 @@
+/*Глобальные*/
+body {
+	font-family: "Times New Roman", serif;
+	font-size: 14px;
+}
+
+th {
+ 	border: 1px solid black;
+    text-align: center;
+}
+
+td {
+   border: 1px solid black;	
+}
+/*Блочные элементы*/
+
+/*<header>*/
+.main {
+	margin: 0px 0px 0px 20px;
+}
+
+/*<h3>*/
+
+.zagolovok1 {
+  font-weight: bold;
+}
+
+/*<div>*/
+.block1 {
+	margin: 0px 0px 0px 20px;
+}
+
+.block2 {
+	margin: 0px 0px 0px 0px;
+}
+
+.block3 {
+	margin: 20px 0px 0px 0px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    height: 300px;
+}
+.block4 {
+    margin: 20px 0px 0px 20px;
+}
+.block5 {
+    margin-left: 100px;
+}
+.block6 {
+    display: inline-block; 
+    vertical-align: top;
+}
+
+/*<table>*/
+
+.table1 {
+  border: 1px solid black;
+  table-layout:fixed;
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%; 
+}
+
+/*Строчные элементы*/
+
+/*<p>*/
+
+.paragraph1 {
+	margin: 20px 0px 0px 0px;
+}
+
+.paragraph2 {
+  margin-top: 20px;
+}
+/*<select>*/
+
+.sel1 {
+  width: 200px;
+}
+
+.sel2 {
+  width: 400px;
+}
+
+.sel3 {
+  width: 100px;    
+}
+
+/*<th>*/
+
+.th1 {
+  width: 3%;
+}
+
+.th2 {
+ width: 5%; 
+}
+
+.th3 {
+ width: 6%; 
+}
+
+.th4 {
+ width: 30%; 
+}
+
+.th5 {
+ width: 5%; 
+}
+
+.th6 {
+ width: 20%;    
+}
+
+.th7 {
+ width: 5%;    
+}
+
+.th8 {
+ width: 5%;    
+}
+
+.th9 {
+ width: 5%;    
+}
+
+.th10 {
+ width: 8%;    
+}
+
+.th11 {
+ width: 8%;    
+}
+
+.th12 {
+ width: 3%;    
+}
+
+
+/*td*/
+
+.td1{
+  width: 0px;
+  visibility: hidden;
+}
+
+.td2 {
+  text-align: center;
+}
+
+.td3{
+  text-align: left;
+  padding-left: 2mm;
+  padding-right: 1mm;
+}
+
+.td4 {
+  text-align: right;
+  padding-left: 1mm;
+  padding-right: 2mm;
+}
+
+.td5 {
+  text-align: right;
+  padding-left: 1mm;
+  padding-right: 5mm;
+  font-weight: bold;
+}
+
+.td6 {
+  text-align: right;
+  padding-left: 1mm;
+  padding-right: 6mm;
+}
+
+/*<input>*/
+
+.input1 {
+    width: 50px;
+    border: none;
+}
+
+/*button*/
+.but1{
+    visibility: hidden;
+}
+
+.but2{
+    visibility: visible;
+}

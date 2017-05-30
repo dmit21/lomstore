@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ломбардия</title>
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+    <link href="../../font-awesome-4.6.3/css/font-awesome.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="../../js/jquery.js"></script>
+    <script src="js/gl.js"></script>
+    <script src="../../js/bootstrap.js"></script>
+    <script src="../../js/myfunction.js"></script>
+</head>
+<body>
+	<header class="main">
+		<h3 class = "zagolovok1">История залогового имущества</h3>
+	</header>
+	<div class="block1">
+      <p class="paragraph1">
+        <label>Штрих-код: <input class = "input2" placeholder="Штрих-код" maxlength="12" id="MyGoodNum" type="text"></label><button type="button" onclick="MySearch()"><i class = "fa fa-search"></i></button>
+      </p>
+       <p class="paragraph1">
+         <button id="MyCloseButton" type="button">Закрыть</button>
+       </p>
+      <div  class="block3">
+      <table id = "MyMoveTable" class="table1 table-hover">
+        <tr>
+          <th class="th1">№</th>
+          <th class="th2">Документ</th>
+          <th class="th3">№ документа</th>
+          <th class="th4">Дата</th>
+          <th class="th5">Просмотр</th>
+          <th class = "tid"></th>
+        </tr>
+     </table>
+     <script src="js/move.js"></script>
+     <script src="../../js/exit.js"></script>
+</body>
+</html>

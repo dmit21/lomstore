@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ломбардия</title>
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="../../font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <script src="../../js/jquery.js"></script>
+    <script src="js/gl.js"></script>
+    <script src="../../js/bootstrap.js"></script>
+    <script src="../../js/myfunction.js"></script>
+  </head>
+  <body>
+    <header class="main">
+	  <h3 id = "MyZag" class="zagolovok1"></h3>
+	</header>
+	<div class="block1">
+      <p class = "paragraph1">
+      	<label>За период с <input id = "DateBeg" type="date"></label> <label>по <input  id = "DateEnd" type="date"></label> 
+        <button type="button" onclick="ActSearch()">Пересчет</button>
+      </p>
+      <div id="MyGoodBlock" class="block2">
+        <p>
+          <h4 class = "zagolovok1">Список актов на исполнение:</h4>
+          <select class="sel1" multiple="multiple" id="MyActSel"></select>
+        </p>
+        <p class="paragraph2" id="MyActNum"></p>
+      </div>
+      <p>
+        <button id = "MakeBut" type="button">Провести</button>
+        <button id="MyCloseButton" type="button">Закрыть</button>
+        <button id="MySaveButton" type="button">Сохранить</button>
+        <button class = "button1" id="MyPrintButton" type="button"><i class="fa fa-print"></i></button>
+        <select class="sel3" multiple="multiple" id="MyPrintSel"></select>
+      </p>
+      <div  class="block3">
+        <table id = "MyGoodTable" class="table1 table-hover">
+     	  <tr>
+          <th class="th1">№ п/п</th>
+          <th class="th2">№ КЗБ</th>
+          <th class="th3">Идентификатор</th>
+          <th class="th4">Наименование</th>
+     	    <th class="th5">Категория</th>
+     	    <th class="th6">Вес</th>
+     	    <th class="th7">Ст. за грамм</th>
+          <th class="th10">Витрина</th>
+          <th class="th8">Скидка</th>
+          <th class="th8">Цена</th>
+          <th class="th9">Себест.</th>
+     	  </tr>
+         </table>
+      </div>
+    </div>
+    <script src="js/act.js"></script>
+    <script src="../../js/exit.js"></script>
+  </body>
+</html>

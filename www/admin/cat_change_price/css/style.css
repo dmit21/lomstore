@@ -1,0 +1,138 @@
+/*Глобальные*/
+body {
+	font-family: "Times New Roman", serif;
+	font-size: 14px;
+}
+
+th {
+ 	border: 1px solid black;
+ 	text-align: center;
+}
+
+td {
+   border: 1px solid black;	
+}
+
+/*Блочные элементы*/
+
+/*<header>*/
+
+.main {
+	margin: 0px 0px 0px 20px;
+
+}
+
+/*<h5>*/
+
+.zagolovok1 {
+	font-weight: bold;
+}
+
+/*<div>*/
+
+.block1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.block2 {
+  margin-left: 100px;
+}
+
+
+.block3 {
+	margin: 20px 0px 0px 20px;
+  overflow-y:auto;
+  overflow-x:hidden;
+  height: 400px;
+  /*width: 1300px;*/
+}
+
+.block4 {
+  margin-left: 20px;
+}
+
+
+
+/*<table>*/
+
+
+.table1 {
+	border: 1px solid black;
+  table-layout:fixed;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 14px;
+  width: 40%;
+}
+
+/*<p>*/
+
+.paragraph1 {
+	margin: 20px 0px 0px 20px;
+}
+
+.paragraph2 {
+	font-size: 20px;
+}
+
+/*Строчные элементы*/
+
+/*<th1>*/
+
+.th1 {
+	visibility: hidden;
+	width: 0%;
+}
+
+.th2 {
+  width: 3%;
+  font-weight: bold;
+}
+
+.th3 {
+  width: 10%;
+  font-weight: bold;
+}
+
+.th4 {
+  width: 3%;
+  font-weight: bold;
+}
+
+.th5 {
+  width: 3%;
+  font-weight: bold;
+}
+
+/*<td>*/
+
+.td1 {
+  text-align: center;  
+}
+
+.td2 {
+  text-align: left;
+  padding-left: 2mm;
+  padding-right: 1mm;
+}
+
+.td3 {
+  text-align: right;
+  padding-left: 1mm;
+  padding-right: 2mm;
+}
+
+/*<input1>*/
+
+.input1 {
+  width: 90px;
+  border: none;
+  text-align: right;
+}
+
+/*<select>*/
+
+.sel1 {
+  width: 400px;
+}

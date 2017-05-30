@@ -1,0 +1,54 @@
+/*Медиа*/
+
+@media print {
+    #printBtn { display:none; }
+} 
+
+/*Глобальные*/
+body {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+th {
+  border: 1px solid black;
+  text-align: center;
+}
+
+td {
+ border: 1px solid black;
+}
+/*Блочные элементы*/
+
+/*<div>*/
+
+.block1 {
+    width: 210mm;   /* ширина */
+    height: 297mm; /* высота */
+    margin: 0px auto;  /* выравнивание по центру */
+    padding: 15mm 15mm 15mm 15mm;
+    
+}
+
+.block2 {
+  text-align: center;	
+}
+/*<h5>*/
+
+.zagolovok1 {
+  text-align: center;
+  font-weight: bold;	
+}
+
+/*<table>*/
+
+.tab1 {
+ border: 1px solid black;
+
+}
+
+/*Cтрочные элементы*/
+
+.button1 {
+  margin-top: 20px;	
+}

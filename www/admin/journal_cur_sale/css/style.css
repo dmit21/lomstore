@@ -1,0 +1,200 @@
+/*Глобальные*/
+body {
+	font-family: "Times New Roman", serif;
+	font-size: 14px;
+}
+
+th {
+  border: 1px solid black;
+  text-align: center;
+}
+
+td {
+   border: 1px solid black;	
+}
+/*Блочные элементы*/
+
+/*<header>*/
+.main {
+	margin: 0px 0px 0px 20px;
+}
+
+/*<div>*/
+.block1 {
+	margin: 20px 0px 0px 20px;
+}
+
+.block2 {
+	margin: 20px 0px 0px 0px;
+}
+
+.block3 {
+	margin: 20px 0px 0px 0px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    height: 400px;
+    
+}
+
+.block4 {
+ margin: 20px 0px 0px 100px;
+}
+
+.block5 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+/*<h3>*/
+
+.zagolovok1 {
+	font-weight: bold;
+}
+
+/*<p>*/
+
+.paragraph1 {
+	margin: 20px 0px 0px 0px;
+}
+
+.paragraph2 {
+	font-size: 20px;
+}
+
+/*<table>*/
+
+.table1 {
+  border: 1px solid black;
+  table-layout:fixed;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+/*Строчные элементы*/
+
+
+/*td*/
+.td1{
+	width: 0%;
+	visibility: hidden;
+}
+.td2{
+	background-color: red;
+	text-align: right;
+	padding-left: 1mm;
+	padding-right: 1mm; 	
+}
+
+.td3 {
+	text-align: center;
+}
+
+.td4 {
+	text-align: center;
+	padding-left: 1mm;
+	padding-right: 1mm;
+}
+
+.td5 {
+	text-align: left;
+	padding-left: 2mm;
+	padding-right: 1mm;
+}
+
+.td6 {
+	text-align: right;
+	padding-left: 1mm;
+	padding-right: 2mm;
+}
+
+.td7 {
+	text-align: right;
+	padding-right: 5mm;
+	font-weight: bold;
+}
+
+.td8 {
+	text-align: right;
+	padding-left: 1mm;
+	padding-right: 2mm;
+	font-weight: bold;
+}
+
+.td9 {
+	text-align: right;
+	padding-left: 1mm;
+	padding-right: 2mm;
+	color: red;
+}
+
+/*<input>*/
+
+.input1 {
+	width: 50px;
+	border: none;
+}
+
+.input2 {
+	width: 50px;
+	border: none;
+	color: red;
+}
+
+/*<select>*/
+
+.sel1 {
+  width: 400px;
+}
+
+.th12{
+	width: 0%;
+	visibility: hidden;
+}
+
+.th1 {
+  width: 5%;
+}
+
+.th2 {
+  width: 7%;
+}
+
+.th3 {
+  width: 40%;
+}
+
+.th4 {
+  width: 5%;
+}
+
+.th5 {
+  width: 5%;
+}
+
+.th6 {
+  width: 5%;
+}
+
+.th7 {
+  width: 5%;
+}
+
+.th8 {
+  width: 5%;
+}
+
+.th9 {
+  width: 5%;
+}
+
+.th10 {
+  width: 5%;
+}
+
+.th11 {
+  width: 5%;
+}
+
+

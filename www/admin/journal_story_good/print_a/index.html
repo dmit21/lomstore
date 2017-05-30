@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Акт на исполнение</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="../../../css/bootstrap.css" rel="stylesheet">
+  </head>
+   <body>
+    <div class="block1">
+      <div class="block2">
+       <p id = "MyPoint"></p>
+       <p id = "MyPhone"></p>
+       <p id = "MyAdres"></p>
+      </div>
+      <h4 id = "MyZag" class="zagolovok1"></h4>
+      <table id = "MyActTable" class="tab1">
+        <tr>
+          <th class="th1">№</th>
+          <th class="th1">Дата</th>
+          <th class="th1">Залоговый билет</th>
+          <th class="th1">Вес</th>
+          <th class="th1">Сумма кредита</th>
+          <th class="th1">Себестоимость</th>
+          <th class="th1">Залогодатель</th>
+        </tr>
+      </table>
+      <div class="block3">
+        <p id = "MySum"></p>
+        <p>Эксперт-оценщик: <span class="span1">________<span><span id = "MyUser" class="span1"></span><br>
+        <span class="span2">подпись</span>
+        </p>
+      </div>
+      <button id="printBtn" class="button btn btn-primary btn-sm button1" onclick="javascript: print();">Распечатать страницу</button>
+    </div>
+
+  </body>
+  <script src="../../../js/jquery.js"></script>
+  <script src="../../../js/bootstrap.js"></script>
+  <script src="../../../js/myfunction.js"></script>
+  <script src="js/print.js"></script>
+</html>

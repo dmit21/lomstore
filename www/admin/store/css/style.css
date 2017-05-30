@@ -1,0 +1,209 @@
+/*Глобальные*/
+body {
+	font-family: "Times New Roman", serif;
+	font-size: 14px;
+}
+
+th {
+ 	border: 1px solid black;
+ 	text-align: center;
+}
+
+td {
+   border: 1px solid black;	
+}
+
+/*Блочные элементы*/
+
+/*<header>*/
+
+.main {
+	margin: 0px 0px 0px 20px;
+
+}
+
+/*<h5>*/
+
+.zagolovok1 {
+	font-weight: bold;
+}
+
+/*<div>*/
+
+.block1 {
+	margin: 0px 0px 0px 20px;
+}
+
+.block2 {
+	margin: 20px 0px 0px 0px;
+}
+
+.block3 {
+	margin: 20px 0px 0px 0px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    height: 400px;
+    /*width: 1300px;*/
+}
+
+/*<table>*/
+
+
+.table1 {
+  border: 1px solid black;
+  table-layout:fixed;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/*Строчные элементы*/
+
+/*<select>*/
+
+.sel0 {
+	color: black;
+	width: 1000px;
+}
+.sel1 {
+	color: green;
+	width: 1000px;
+}
+.sel2 {
+  width: 90px;
+}
+
+.sel3 {
+  color: green;
+  visibility: hidden;
+  width: 100px;
+}
+
+.sel4 {
+  width: 90px;
+}
+
+
+/*<p>*/
+
+.paragraph1 {
+	margin: 20px 0px 0px 0px;
+}
+
+.paragraph2 {
+	font-size: 20px;
+}
+
+
+.th1 {
+	width: 5%;
+}
+
+.th2 {
+	width: 5%;
+}
+
+.th3 {
+	width: 7%;
+}
+
+.th4 {
+  width: 30%;
+}
+
+.th5 {
+  width: 20%;
+}
+
+.th6 {
+ width: 5%; 
+}
+
+.th7 {
+ width: 5%; 
+}
+
+.th8 {
+ width: 5%; 
+}
+
+.th9 {
+ width: 5%; 
+}
+
+/*<td>*/
+
+.td1 {
+    visibility: hidden;
+	width: 0px;
+}
+
+.td2{
+  text-align: center;
+}
+
+.td3{
+  text-align: left;
+  padding-left: 2mm;
+  padding-right: 1mm;
+}
+
+.td4 {
+  text-align: right;
+  padding-left: 1mm;
+  padding-right: 2mm;
+}
+
+/*<input>*/
+
+.input1 {
+	width: 0px;
+}
+
+.input2 {
+	width: 90px;
+	background-color: white;
+	border: none;
+
+}
+
+.input3 {
+/*	width: 450px;*/
+	width: 150px;
+	background-color: white;
+	border: none;
+}
+
+.input4 {
+	width: 250px;
+	background-color: white;
+	border: none;
+}
+
+.input5 {
+	width: 40px;
+	background-color: white;
+	border: none;
+}
+
+.input6 {
+	width: 70px;
+}
+
+.input7 {
+	width: 70px;
+	background-color: white;
+	border: none;
+}
+
+.input8 {
+	width: 60px;
+	background-color: white;
+	border: none;
+}
+
+/*<button>*/
+
+.button1 {
+	visibility: hidden;
+}

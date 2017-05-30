@@ -1,0 +1,116 @@
+/*Медиа*/
+
+@media print {
+    #printBtn { display:none; }
+} 
+
+/*Глобальные*/
+
+body {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+th, td {
+    border: 1px solid black;
+
+}
+
+/*Блочные элементы*/
+
+/*<div>*/
+
+.block1 {
+    width: 210mm;   /* ширина */
+    height: 297mm; /* высота */
+    margin: 0px auto;  /* выравнивание по центру */
+    padding: 15mm 15mm 15mm 15mm;
+    
+}
+
+.block2 {
+    line-height: 0.5;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: right;
+}
+
+.block3 {
+    display: inline-block;
+
+}
+
+.block4 {
+    margin-left: 20px;
+}
+
+/*<h4>*/
+
+.zagolovok1 {
+    text-align: center;
+}
+
+/*<table>*/
+
+.tab1 {
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.tab2 {
+  margin-top: 20px;
+  border: 1px solid black;
+  margin-left: 325px;
+}
+
+/*<p>*/
+
+.paragraph1 {
+    margin-top: 20px;
+}
+
+.paragraph2 {
+  margin-top: 20px;
+  margin-top: 20px;
+  font-color: red;
+  font-size: 20px;
+
+}
+
+
+/*Cтрочные элеметы элементы*/
+
+/*<th>*/
+
+.th1 {
+    width: 200px;
+    padding-left: 1mm;
+    padding-right: 1mm;
+    font-weight: normal;
+}
+
+/*<td>*/
+
+.td1 {
+    text-align: right;
+    width: 100px;
+    padding-left: 1mm;
+    padding-right: 1mm;
+}
+
+/*<span>*/
+
+.span1 {
+   margin-left: 50px;
+}
+
+.span2 {
+    margin-left: 186px;
+    font-size: 9px;
+}
+
+/*<button>*/
+
+.button1 {
+    margin-top: 20px;
+}

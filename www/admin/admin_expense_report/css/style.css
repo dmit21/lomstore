@@ -1,0 +1,32 @@
+/*Глобальные*/
+body {
+	font-family: "Times New Roman", serif;
+}
+
+/*Блочные элементы*/
+
+/*<h5>*/
+.zagolovok1 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.zagolovok2 {
+  font-weight: bold;
+}
+
+/*<div>*/
+
+.block1 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+/*Строчные элементы*/
+
+/*<select>*/
+
+.sel1 {
+  width: 400px;
+}

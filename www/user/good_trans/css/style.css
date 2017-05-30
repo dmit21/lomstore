@@ -1,0 +1,109 @@
+/*Глобальные*/
+body {
+	font-family: "Times New Roman", serif;
+	font-size: 14px;
+}
+
+th {
+ 	border: 1px solid black;
+ 	text-align: center;
+}
+
+td {
+   border: 1px solid black;	
+}
+
+/*Блочные элементы*/
+
+/*<header>*/
+.main {
+	margin: 0px 0px 0px 20px;
+
+}
+
+/*<h4>*/
+.zagolovok1 {
+	font-weight: bold;
+}
+
+/*<div>*/
+
+.block1 {
+	margin: 20px 0px 0px 20px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    height: 400px;
+    width: auto;
+    
+}
+
+
+/*<p>*/
+
+.paragraph2 {
+     margin: 20px 0px 0px 20px;          
+}
+
+.paragraph3 {
+  margin: 20px 0px 0px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*<table>*/
+
+.tab1 {
+	width: 100%;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+/*Строчные элементы*/
+
+/*input*/
+
+.input1 {
+	width: 150px;
+}
+
+/*td*/
+
+.td1{
+	width: 0px;
+	visibility: hidden;
+}
+
+.td2{
+  text-align: center;
+}
+
+.td3{
+  text-align: left;
+  padding-left: 2mm;
+  padding-right: 1mm;
+}
+
+.td4 {
+  text-align: right;
+  padding-left: 1mm;
+  padding-right: 2mm;
+}
+
+.td5{
+  text-align: right;
+  font-weight: bold;
+  padding-right: 5mm;
+}
+
+.td6 {
+  text-align: right;
+  padding-left: 1mm;
+  padding-right: 2mm;
+  font-weight: bold;
+}
+
+/*идентификаторы*/
+
+#MyPrintButton {
+	visibility: hidden;
+}

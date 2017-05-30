@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ломбардия</title>
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="../../font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/bootstrap.js"></script>
+    <script src="../../js/myfunction.js"></script>    
+    <script src="js/gl.js"></script>
+</head>
+<body>
+	<header class="main">
+		<h3 id = "MyZag" class="zagolovok1"></h3>
+	</header>
+	<div class="block1">
+    <div class="block2 block5">
+      <h5 class="zagolovok1">Витрины:</h5>
+      <select class="sel1" multiple="multiple" id="MyGoodSel"></select>
+      <p class = "paragraph1" id="MyStoreName"></p>    
+    </div>
+    <div class="block4 block5">
+        <p>
+            <label>№ билета: <input id="MyTic" class="input2" maxlength = "8" type="text"></label>
+        </p>
+        <p>
+            <label>№ товара(штрих-код): <input id="MyGood" class="input3" maxlength = "12" type="text"></label>
+        </p>
+        <p>
+            <label>По названию: <input id="MyNam" class="input4" type="text"></label>
+        </p>
+        <p>
+            <label>Диапазон цен с <input id="MyNumBeg" class="input3" type="number"></label>
+            <label>по <input id="MyNumEnd" class="input3" type="number"></label>
+        </p>
+    </div>
+    <p>
+      <button id = "MakeSearch" type="button">Поиск<i class="fa fa-search"></i></button>
+      <button id = "MyPrn" type="button"><i class = "fa fa-print"></i></button>
+      <button id="MyCloseButton" type="button">Закрыть</button>
+      <button class="but1" id = "MySave" type="button">Сохранить изменения</button>
+      <button class="but1" id = "MyCancel" type="button">Отменить изменения</button>
+    </p>
+
+    <div class="block3">
+     <table id = "MyGoodTable" class="table1 table-hover">
+     	<tr>
+        <th class = "th1">№</th>
+        <th class = "th2">№ КЗБ</th>
+        <th class = "th3">Идентификатор</th>
+     	  <th class = "th4">Наименование</th>
+        <th class = "th5">Категория</th>
+     	  <th class = "th6">Вес</th>
+     	  <th class = "th7">Цена за г.</th>
+        <th class = "th8">Стоимость</th>
+        <th class = "th9">Себест.</th>
+     	  <th class = "th10">Витрина</th>
+     	</tr>
+     </table>
+     </div>
+     <p class = "paragraph3" id ="MyItog"></p>
+    </div>
+    <script src="js/goods.js?2"></script>
+    <script src="../../js/exit.js"></script>    
+</body>
+</html>

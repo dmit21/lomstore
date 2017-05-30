@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Упаковочный талон</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="../../../../css/bootstrap.css" rel="stylesheet">
+    <script src="../../../../js/jquery.js"></script>
+    <script src="../../../../js/jquery-barcode.js"></script>
+    <script src="../../../../js/myfunction.js"></script>
+    <script src="js/barcode.js"></script>    
+  </head>
+  <body>
+  	<div class="block1">
+      <div class="block2">
+        <h4 id="NumTic" class = "zagolovok1"></h4>
+        <table id="MyBarTab" class="tab1">
+          <tr>
+            <td class="td1">Наименование залогового имущества</td>
+            <td class="td1">Категория</td>
+            <td class="td1">Вес</td>
+            <td class="td1">Штрих код</td>
+          </tr>
+        </table>
+        <p id="Div"></p>
+      </div>
+      <button id="printBtn" class="btn btn-primary btn-sm but" onclick="javascript: print();">Распечатать страницу</button>
+    </div>
+  </body>
+  <script src="../../../../js/bootstrap.js"></script>
+</html>  

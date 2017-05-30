@@ -1,0 +1,110 @@
+/*Глобальные*/
+body {
+	font-family: "Times New Roman", serif;
+	font-size: 14px;
+}
+
+th {
+ 	border: 1px solid black;
+}
+
+td {
+   border: 1px solid black;	
+}
+/*Блочные элементы*/
+
+/*<header>*/
+.main {
+	margin: 0px 0px 0px 20px;
+}
+
+/*<div>*/
+.block1 {
+	margin: 0px 0px 0px 20px;
+}
+
+.block2 {
+	margin: 20px 0px 0px 0px;
+}
+
+.block3 {
+	margin: 20px 0px 0px 0px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    height: 400px;
+    width: 1300px;
+    
+}
+
+/*<table>*/
+
+
+/*Строчные элементы*/
+
+/*<p>*/
+
+.paragraph1 {
+	margin: 20px 0px 0px 0px;
+}
+
+.paragraph2 {
+	font-size: 20px;
+}
+
+
+/*td*/
+.td1{
+	width: 0px;
+	visibility: hidden;
+}
+.td2{
+	background-color: red;
+	text-align: right;
+	padding-left: 1mm;
+	padding-right: 1mm;
+}
+
+.td3 {
+	text-align: center;
+}
+
+.td4 {
+	text-align: center;
+	padding-left: 1mm;
+	padding-right: 1mm;
+}
+
+.td5 {
+	text-align: left;
+	padding-left: 1mm;
+	padding-right: 1mm;
+}
+
+.td6 {
+	text-align: right;
+	padding-left: 1mm;
+	padding-right: 1mm;
+}
+
+.td7 {
+	text-align: center;
+	padding-left: 1mm;
+	padding-right: 1mm;
+	font-weight: bold;
+}
+
+.td8 {
+	text-align: right;
+	padding-left: 1mm;
+	padding-right: 1mm;
+	font-weight: bold;
+}
+
+
+/*<input>*/
+
+.input1 {
+	width: 50px;
+	text-align: right;
+	border: none;
+}

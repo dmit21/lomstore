@@ -1,0 +1,239 @@
+/*Медиа*/
+
+@media print {
+  #printBtn { 
+    display:none;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  #printRet { display:none; }
+} 
+
+/*Глобальные*/
+
+body {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+th {
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+  text-align: right;
+}
+
+
+/*Блочные элементы*/
+
+/*<div>*/
+
+.block1 {
+  border: none;
+  width: 210mm;   /* ширина */
+  height: 297mm; /* высота */
+  margin: 0px auto;  /* выравнивание по центру */
+  background-color: white;  /* цвет фона в блоке */
+  padding: 0mm 15mm 0mm 15mm;
+}
+
+.block2 {
+  float: left;
+}
+    
+.block3 {
+  margin-top: 30px;        
+}
+
+.block4 {
+  font-size: 11px;        
+}
+
+
+/*<h5>*/
+
+.zagolovok1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.zagolovok2 {
+  text-align: left;
+  font-weight: bold;
+}
+
+.zagolovok3 {
+  text-align: right;
+  font-weight: bold;
+}
+
+/*<p>*/
+
+.paragraph1 {
+  text-align: left;
+  font-size: 12px;
+}
+
+.paragraph2 {
+  text-align: right;
+  font-size: 12px;
+}
+
+.paragraph3 {
+  margin-top: 20px;
+}
+
+.paragraph4 {
+  font-size: 11px;
+
+}
+
+
+/*<table>*/
+
+.tab1 {
+  width: 100%;
+  border: 1px solid black;
+  font-size: 12px;
+}
+
+.tab2 {
+  width: 300px; /* Ширина таблицы */
+  border: 2px solid white;
+  font-size: 11px;
+
+
+}
+
+/*<ol>*/
+
+.list1 {
+  font-size: 11px;
+}
+
+/*Cтрочные элеметы элементы*/
+
+/*<th>*/
+
+.th1 {
+  width: 30%;
+  text-align: center;
+}
+
+.th2 {
+  width: 40%;
+  text-align: center;
+}
+
+.th3 {
+  width: 5%;
+  text-align: center;
+
+}
+
+/*<td>*/
+
+.td1 {
+  text-align: center;
+  padding-left: 2mm;
+  padding-right: 2mm;
+}
+
+.td2 {
+  text-align: left;
+  padding-right: 2mm;
+  padding-left: 2mm;
+}
+
+.td3 {
+  padding: 3px; /* Поля вокруг содержимого таблицы */
+  border: 1px solid black; /* Параметры рамки */
+  text-align: left; /* Выравнивание по левому краю */
+}
+
+.td4 {
+  padding: 3px; /* Поля вокруг содержимого таблицы */
+  border: 1px solid black; /* Параметры рамки */
+  text-align: left; /* Выравнивание по левому краю */
+  font-weight: bold;
+}
+
+.td5 {
+  padding-right: 2mm;
+  text-align: right;
+  padding-left: 2mm;
+}
+
+.td6 {
+  padding-right: 2mm;
+  text-align: right;
+  font-weight: bold;
+  padding-left: 2mm;  
+}
+
+/*<span>*/
+
+.span1{
+  margin-left: 50px;
+  word-spacing: 50px;
+}
+
+.span2 {
+  margin-left: 30px;
+  line-height: 0.5;
+}
+
+.span3 {
+  margin-left: 187px;
+  word-spacing: 110px;
+  line-height: 0.5;
+  font-size: 9px;
+}
+
+.span4 {
+  margin-left: 175px;
+  line-height: 0.5;
+  font-size: 9px;
+  
+}
+
+.span9 {
+  margin-left: 110px;
+  line-height: 0.5;
+  font-size: 9px;
+  
+}
+
+.span5 {
+  margin-left: 30px;
+  word-spacing: 50px;
+  line-height: 0.5;
+  font-size: 9px;
+}
+
+.span6 {
+  line-height: 0.5;
+  font-size: 9px;
+}
+
+.span7 {
+  margin-left: 230px;
+}
+
+.span8 {
+  margin-left: 100px;
+}
+
+.span10 {
+  font-size: 11px;
+}
+
+.span11 {
+  font-weight: bold;
+}
+
+   
+   
+
+

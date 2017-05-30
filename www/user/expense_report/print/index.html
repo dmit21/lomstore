@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Авансовый отчет</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="../../../css/bootstrap.css" rel="stylesheet">
+    <script src="../../../js/jquery.js"></script>
+    <script src="../../../js/bootstrap.js"></script>
+    <script src="../../../js/close.js"></script>
+    <script src="../../../js/myfunction.js"></script>
+    <script src="js/print.js"></script>
+  </head>
+  <body>
+  	<div class="block1">
+      <div class="block2">
+        <p id = "Adres"></p>
+        <p id = "Phone"></p>
+      </div>
+  		<h4 id = "MyZag" class="zagolovok1"></h4>
+      <table class="tab1">
+          <tr>
+            <th class="th1">Остаток на начало дня</th>
+            <td id = "OsumDay" class="td1"></td>
+          </tr>
+      </table>
+      <div class="block3"> 
+        <table class="tab1">
+          <tr>
+            <th class="th1">Служебный приход</th>
+            <td id = "Prih" class="td1"></td>
+          </tr>
+        </table>
+        <table class="tab1">
+          <tr>
+            <th class="th1">Корректировка плюс</th>
+            <td id = "CorP" class="td1"></td>
+          </tr>
+        </table>
+        <table class="tab1">
+          <tr>
+            <th class="th1">Продажи</th>
+            <td id = "SumProd" class="td1"></td>
+          </tr>
+        </table>
+      </div>
+      <div class="block3 block4">
+        <table class="tab1">
+          <tr>
+            <th class="th1">Служебный расход</th>
+            <td id = "SumRas" class="td1"></td>
+          </tr>
+        </table>
+        <table class="tab1">
+          <tr>
+            <th class="th1">Корректировка минус</th>
+            <td id = "CorM" class="td1"></td>
+          </tr>
+        </table>
+        <table class="tab1">
+          <tr>
+            <th class="th1">Возврат товара</th>
+            <td id = "VozGood" class="td1"></td>
+          </tr>
+        </table>
+      </div>
+      <table class="tab2">
+        <tr>
+          <th class="th1">Остаток на конец дня</th>
+          <td id = "OsumEnd" class="td1"></td>
+        </tr>
+      </table>
+      <p id = "MyAlert" class="paragraph2"></p>
+      <p class="paragraph1">
+        Эксперт-оценщик <span class="span1">________</span><span id = "Name" class="span1"></span><br>
+        <span class="span2">подпись</span>
+      </p>
+      <button id="printBtn"  class="btn btn-primary button1" onclick="javascript: print();">Распечатать страницу</button>	
+    </div>
+  </body>
+</html>
