@@ -11,6 +11,7 @@ td, th {
 /*Блочные элементы*/
 
 /*<header>*/
+
 .main {
 	margin: 0px 0px 0px 20px;
 
@@ -39,17 +40,18 @@ td, th {
 
 
 /*<p>*/
+
 .paragraph1 {
-     font-weight: bold;          
+  font-weight: bold;          
 }
 
 
 .paragraph2 {
-     margin: 20px 0px 0px 0px;          
+  margin: 20px 0px 0px 0px;          
 }
 
 .paragraph3 {
-     margin: 0px 0px 0px 20px;          
+  margin: 20px 0px 0px 0px;          
 }
 
 
@@ -58,7 +60,7 @@ td, th {
 /*<select>*/
 
 .sel1 {
-  width: 100%;
+  width: 600px;
 }
 
 /*<input>*/

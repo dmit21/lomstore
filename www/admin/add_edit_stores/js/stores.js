@@ -1,8 +1,11 @@
 window.onload = function () {
+  $("#MyEdit").attr('disabled',true);
+  $("#MyEdit").css('color','gray');
   StoreSel();
 }
 
 // заполнение селекта с магазинами
+
 function StoreSel(){
   $.ajax({
     type: "POST",
@@ -26,9 +29,11 @@ function StoreSel(){
     sel.appendChild(opt);
   }
 }
+
 // заполнение селекта с магазинами
 
 // привязка магазина
+
 $("#MyConnect").click(function () {
   var sel = document.getElementById("MySelStores").value;
   var si = document.getElementById("MySelStores").selectedIndex;
@@ -41,21 +46,23 @@ $("#MyConnect").click(function () {
     async: false,
     success: function(html1) {
       if (sel==3) {
-        document.getElementById("MyPriv").innerHTML = "Привязаны " + document.getElementById("MySelStores").options[si].innerHTML + "." 
+        document.getElementById("MyPriv").innerHTML = "Привязаны " + document.getElementById("MySelStores").options[si].innerHTML
         $(".paragraph2").css({"color" : "green"});
       }
       else {
-        document.getElementById("MyPriv").innerHTML = "Привязана " + document.getElementById("MySelStores").options[si].innerHTML + "." 
+        document.getElementById("MyPriv").innerHTML = "Привязана " + document.getElementById("MySelStores").options[si].innerHTML 
         $(".paragraph2").css({"color" : "green"});
       }
     }
   });
 });
+
 // привязка магазина
 
 // заполнение формы добавления редактирования магазина
 // 1 - добавление магазина
 // 2 - редактирование магазина
+
 function MyAddEdStor(par){ 
   $(".block1").css({"visibility" : "visible"});
   $(".block4").css({"visibility" : "hidden"});
@@ -82,22 +89,31 @@ function MyAddEdStor(par){
     break;
   }
 }
+
 // заполнение формы добавления редактирования магазина
 
 //добавить магазин
+
 $("#MyAdd").click(function () {
+  $("#ListBlock").css('visibility','hidden');
   MyAddEdStor(1);
 });
+
 //добавить магазин
 
 //редактировать магазин
+
 $("#MyEdit").click(function () {
+  $("#ListBlock").css('visibility','hidden');
   MyAddEdStor(2);
 });
+
 //редактировать магазин
 
 // закрыть форму редактирования. дообавления
+
 $("#MyClose").click(function () {
+  $("#ListBlock").css('visibility','visible');
   $(".block1").css({"visibility" : "hidden"});
   $(".block4").css({"visibility" : "visible"});
   document.getElementById('MyNumber').value = '';
@@ -105,10 +121,13 @@ $("#MyClose").click(function () {
   document.getElementById('MyAdres').value = '';
   document.getElementById('MyPhone').value = '';
 });
+
 // закрыть форму редактирования. дообавления
 
 // сохранить данные редактирования. дообавления
+
 $("#MySave").click(function () {
+  $("#ListBlock").css('visibility','visible');
   $.ajax({
     type: "POST",
     url: "scripts/savestore.php",
@@ -130,4 +149,24 @@ $("#MySave").click(function () {
   document.getElementById('MyPhone').value = '';
   StoreSel();
 });
+
 // сохранить данные редактирования. дообавления
+
+// ВЫБОР ВИТРИНЫ ИЗ СПИСКА ВИТРИН
+
+$("#MySelStores").dblclick(function () {
+  $("#MyEdit").removeAttr('disabled');
+  $("#MyEdit").css('color','black');
+  var sid = document.getElementById('MySelStores').value;
+  var si = document.getElementById('MySelStores').selectedIndex;
+  if (sid == 3) {
+    document.getElementById('MyStoreName').innerHTML = 'Выбраны '+document.getElementById('MySelStores').options[si].innerHTML;
+    $(".paragraph2").css({"color" : "green"});
+  }
+  else {
+    document.getElementById('MyStoreName').innerHTML = 'Выбрана '+document.getElementById('MySelStores').options[si].innerHTML;
+    $(".paragraph2").css({"color" : "green"});
+  } 
+});
+
+// ВЫБОР ВИТРИНЫ ИЗ СПИСКА ВИТРИН

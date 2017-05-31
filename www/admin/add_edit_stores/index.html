@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-	<title>Ломбардия</title>
-    <link href="css/style.css" rel="stylesheet">
-    <link href="../../font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
-    <script src="../../js/jquery.js"></script>
-    <script src="../../js/bootstrap.js"></script>
-    <script src="js/gl.js"></script>
-    <script src="../../js/myfunction.js"></script>
+	  <title>Ломбардия</title>
+      <link href="../../css/bootstrap.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <link href="../../font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
+      <script src="../../js/jquery.js"></script>
+      <script src="../../js/bootstrap.js"></script>
+      <script src="js/gl.js"></script>
+      <script src="../../js/myfunction.js"></script>
   </head>
   <body>
   	<header class="main">
- 	   <h4 class="zagolovok1">Добавление, редактирование и привязка магазинов</h4>
+ 	    <h3 class="zagolovok1">Добавление, редактирование и привязка магазинов</h3>
 	  </header>
 	  <div class="block2" id="ListBlock">
 	    <div class="block3">
   		  <p class="paragraph1">Список магазинов:</p>
   	  	<select class="sel1" id="MySelStores" multiple>
 	  	  </select>
+        <p class="paragraph2" id="MyStoreName"></p>
         <p class="paragraph2" id ="MyPriv"></p>
-        <p class="paragraph2">
+        <p class="paragraph3">
           <button  type="button" id = "MyConnect">Привязать</button>
           <button type="button" id = "MyAdd"><i class="fa fa-plus">Добавить</i></button>
           <button type="button" id = "MyEdit"><i class="fa fa-edit">Редактировать</i></button>
+          <button  type="button" id = "MyCloseButton">Вернуться на главную страницу</button>
         </p>
 	    </div>
     </div>
@@ -31,16 +34,12 @@
     	<p><label>Наименование: <input id = "MyName" type="text"></label></p>
    	  <p><label>Адрес: <input class = "input2" id = "MyAdres" type="text"></label></p>
      	<p><label>Телефон: <input id = "MyPhone" type="text"></label></p>
-      <p class="paragraph2">
+      <p class="paragraph3">
         <button type="button" id = "MySave">Сохранить</button>
         <button  type="button" id = "MyClose">Закрыть</button>
       </p>
     </div>
-    <p class="paragraph3">
-      <button  type="button" id = "MyCloseButton">Вернуться на главную страницу</button>
-    </p>
   </body>
   <script src="../../js/exit.js"></script>
   <script src="js/stores.js"></script>
-  </head>
 </html>
